@@ -10,8 +10,7 @@ import java.util.List;
 //automationpractice.com
 public class loginPage {
     WebDriver driver;
-
-
+    
     @FindBy(id = "name") private WebElement nameInputHOTFIX;
     private static By loginInput = By.id("loginInput");
     //WebElement locator = getDriver().findElement(By.xpath("//tr/td[contains(text(),'" + name + "')]"));
