@@ -12,7 +12,7 @@ public class loginPage {
     WebDriver driver;
 
 
-    @FindBy(id = "name") private WebElement nameInput;
+    @FindBy(id = "name") private WebElement nameInputHOTFIX;
     private static By loginInput = By.id("loginInput");
     //WebElement locator = getDriver().findElement(By.xpath("//tr/td[contains(text(),'" + name + "')]"));
     WebElement locator = driver.findElement(By.xpath("//tr/td[contains(text(),'test')]"));
